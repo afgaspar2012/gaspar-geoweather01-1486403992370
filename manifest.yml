@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: gaspar-geoweather01
+  host: gaspar-geoweather01
+  disk_quota: 1024M
+  services:
+  - Weather Company Data-xw
+  - gaspar-geoweather01-cloudantNoSQLDB
+  - gaspar-geoweather01-iotf-service
